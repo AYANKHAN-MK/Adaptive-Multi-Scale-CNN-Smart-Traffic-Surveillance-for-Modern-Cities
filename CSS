@@ -1,0 +1,15 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0d1117; /* Dark background */
+    color: #c9d1d9; /* Light text */
+}
+.container-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (min-width: 640px) {
+    .container-padding {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
